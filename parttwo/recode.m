@@ -1,6 +1,4 @@
 function [] = recode(fileName,seconds)
-%UNTITLED 此处显示有关此函数的摘要
-%   此处显示详细说明
 recObj = audiorecorder(48000,16,1);
 disp('Start recording.');
 recordblocking(recObj, seconds);
